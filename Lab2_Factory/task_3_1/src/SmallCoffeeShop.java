@@ -1,8 +1,6 @@
-// Concrete coffee shop implementations
 class SmallCoffeeShop implements CoffeeShop {
     @Override
     public Drink createDrink(String order) {
-        // Decide which drink to create based on the customer order
         switch (order.toLowerCase()) {
             case "espresso":
                 return new Espresso();

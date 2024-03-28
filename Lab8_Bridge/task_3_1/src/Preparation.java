@@ -1,0 +1,3 @@
+interface Preparation {
+    void prepare();
+}
